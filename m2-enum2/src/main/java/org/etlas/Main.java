@@ -7,5 +7,13 @@ public class Main {
         System.out.println("How to access to constant");
         Currency c = Currency.DIME;
         System.out.println(c);
+        System.out.println("How to print constant");
+        Currency[] currencies = Currency.values();
+        for (Currency currency:currencies){
+            System.out.println(currency);
+        }
+        System.out.println("How to access to constant");
+
+
     }
 }
