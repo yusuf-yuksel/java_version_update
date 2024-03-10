@@ -21,5 +21,6 @@ EmployeeData.readAll()
         .map(Employee::getEmpPhoneNumbers)
         .flatMap(List::stream)
         .forEach(System.out::println);
+        System.out.println("son");
     }
 }
