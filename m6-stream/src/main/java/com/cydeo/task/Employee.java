@@ -1,7 +1,11 @@
 package com.cydeo.task;
 
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+import java.util.List;
+@Data
+@AllArgsConstructor
 public class Employee {
     private int empId;
     private String empName;
