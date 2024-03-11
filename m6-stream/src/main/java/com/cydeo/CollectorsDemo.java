@@ -71,6 +71,7 @@ public class CollectorsDemo {
                 .collect(Collectors.groupingBy(Dish::getType));
 
         System.out.println(dishType);
+        System.out.println("son");
 
 
 
